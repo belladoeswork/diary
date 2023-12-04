@@ -1,0 +1,151 @@
+body {
+  background-color: #F5FAFA;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+.picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.counter1, .counter2{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #DD7788;
+  color: #D4F4D4;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.decr:disabled,
+.incr:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+}
+
+p {
+  margin: 0;
+  width: 150px;
+  text-align: center;
+}
+
+
+.calendar-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date-box {
+  border: 1px solid black;
+  padding: 25px; 
+  margin: 2px;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  position: relative;
+}
+
+.week {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.today {
+  background-color: #4caf50;
+}
+
+.notes {
+  resize: both;
+  overflow:  auto;
+}
+
+
+.typeme {
+  height: 100px;
+  width: 550px;
+  border-radius: 5px;
+  font-size:  20px;
+  margin-top: 20px;
+  resize: both;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+}
+
+
+.submit {
+  height: 40px; 
+  width: 120px;
+  background-color: #DD7788;
+  color: #D4F4D4;
+  border: 1px solid #DD7788;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.emoji {
+  position:absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.edit {
+  height: 20px; 
+  width: 20px;
+  background-color: #DD7788;
+  border: 1px solid #DD7788;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete {
+  height: 20px; 
+  width: 20px;
+  background-color: #DD7788;
+  border: 1px solid #DD7788;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.save {
+  height: 20px; 
+  width: 20px;
+  background-color: #DD7788;
+  border: 1px solid #DD7788;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sub2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5px;
+}
